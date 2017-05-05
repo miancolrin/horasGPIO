@@ -18,9 +18,6 @@
 import RPi.GPIO as GPIO # Librería de los GPIO y la llamamos 'GPIO'
 import time # Importamos el tiempo para la discriminación horaria
 
-# Limpiamos el estado de los GPIO de la sesión anterior
-GPIO.cleanup()
-
 # Se establece el sistema de nueración de los GPIO a BCM
 GPIO.setmode(GPIO.BCM)
 
